@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color:blanchedalmond;
+    background-image:url('toDo img.jpg');
+    position: relative;
+    display: flex;
+    font-family: fantasy;
+}
+.container{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    color:rgb(7, 7, 8);
+    justify-content: center;
+    text-align: left;
+
+    top:50px;
+    left: 38%;
+    border-radius:2%;
+    padding:1px;
+    padding-top:20px;
+    padding-bottom: 20px;
+
+}
+.input{
+    background-color: rgba(49, 18, 23, 0.362);
+    /* padding-top:1px; */
+    overflow:hidden;
+    overflow-wrap: break-word;
+    
+}
+.list{
+    padding-left: 10px;
+}
+.name{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    background-color: rgb(170, 124, 85);
+    left:44%;
+    margin-top: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color:rgb(5, 6, 6)
+    
+}
+#add:hover{
+    background-color: rgb(153, 138, 117);
+}
+#reset:hover{
+    background-color: rgb(238, 44, 14);
+}
+#input-text:hover{
+    background-color: rgb(38, 36, 36);
+    color:white;
+}
