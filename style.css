@@ -10,7 +10,7 @@ body{
 .container{
     display: flex;
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 450px;
     background-color: white;
     color:rgb(7, 7, 8);
@@ -18,11 +18,13 @@ body{
     text-align: left;
 
     top:50px;
+
     left: 38%;
-    border-radius:2%;
+    border-radius:2px;
     padding:1px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .input{
@@ -30,6 +32,10 @@ body{
     /* padding-top:1px; */
     overflow:hidden;
     overflow-wrap: break-word;
+    width: 100%;
+    height:100%;
+    border-radius:2px;
+
     
 }
 .list{
@@ -39,12 +45,16 @@ body{
     display: flex;
     position: absolute;
     font-size: 30px;
-    background-color: rgb(170, 124, 85);
+    background-color: rgb(151, 112, 78);
     left:44%;
     margin-top: 15px;
     font-weight: bolder;
     letter-spacing: 2px;
     color:rgb(5, 6, 6)
+    
+}
+#input-text{
+    width: 70%;
     
 }
 #add:hover{
@@ -56,4 +66,12 @@ body{
 #input-text:hover{
     background-color: rgb(38, 36, 36);
     color:white;
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .container{
+    left: 10%;
+    width: 250px;
+    height:400px;
+  }
 }
